@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="./img/camera.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="./img/camera.ico" type="image/x-icon" />
+  <title>休闲</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <script src="./js/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./css/index.css" />
+</head>
+
+<body>
+  <div style="width: 100%;height: 80px;border-bottom: solid 1px #959595;box-shadow: 0px 3px 5px #888888;" id="navtop">
+    <div id="navleft" class="col-md-4 column">
+      <div style="transform: translateY(50%);">
+        <button
+          style="margin-right: 5px;border-radius: 30px;width: 70px;height: 40px;font-weight:bold;background-color: #000000;color: #ffffff;border: solid #959595 1px;">
+          <a href="./index.html" style="color: #ffffff;text-decoration:none;">返回</a>
+        </button>
+      </div>
+
+    </div>
+    <div id="navcenter" class="col-md-4 column">
+      <div style="text-align: center;">
+        <img src="./img/camera.png" style="margin-left: 0px;">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <h1 style="font-weight: bold;">看点小说？</h1>
+      <hr>
+      <div class="col-md-12" style="margin-bottom: 15px;">
+        <div class="carousel slide" id="carousel-example-generic" data-ride="carousel" data-interval="1500">
+          <ol class="carousel-indicators" style="border-radius: 20px;">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+          </ol>
+          <div class="carousel-inner" style="border-radius: 20px;">
+            <div class="item active">
+              <img src="./img/carousel1.jpg">
+            </div>
+            <div class="item">
+              <img src="./img/carousel2.jpg">
+            </div>
+            <div class="item">
+              <img src="./img/carousel3.jpg">
+            </div>
+            <div class="item">
+              <img src="./img/carousel4.jpg">
+            </div>
+            <div class="item">
+              <img src="./img/carousel5.jpg">
+            </div>
+          </div>
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"
+            style="border-radius: 20px;">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"
+            style="border-radius: 20px;">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+        </div>
+      </div>
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>书名</th>
+            <th>作者</th>
+            <th>分类</th>
+            <th>下载</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>盗墓笔记</td>
+            <td>南派三叔</td>
+            <td>恐怖小说</td>
+            <td><button class="btn btn-success"><a href="#"
+                  style="text-decoration: none;color: #ffffff;">下载</a></button></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>名侦探的规条</td>
+            <td>东野圭吾</td>
+            <td>悬疑小说</td>
+            <td><button class="btn btn-primary"><a href="#"
+                  style="text-decoration: none;color: #ffffff;">下载</a></button></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>天才相师</td>
+            <td>打眼</td>
+            <td>都市小说</td>
+            <td><button class="btn btn-warning"><a href="#"
+                  style="text-decoration: none;color: #ffffff;">下载</a></button></td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>庆余年</td>
+            <td>猫腻</td>
+            <td>历史小说</td>
+            <td><button class="btn btn-info"><a href="#" style="text-decoration: none;color: #ffffff;">下载</a></button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>将夜</td>
+            <td>猫腻</td>
+            <td>玄幻小说</td>
+            <td><button class="btn btn-primary"><a href="#"
+                  style="text-decoration: none;color: #ffffff;">下载</a></button></td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td>斗破苍穹</td>
+            <td>天蚕土豆</td>
+            <td>玄幻小说</td>
+            <td><button class="btn btn-warning"><a href="#"
+                  style="text-decoration: none;color: #ffffff;">下载</a></button></td>
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td>斗罗大陆</td>
+            <td>唐家三少</td>
+            <td>玄幻小说</td>
+            <td><button class="btn btn-info"><a href="#" style="text-decoration: none;color: #ffffff;">下载</a></button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">8</th>
+            <td>鬼吹灯</td>
+            <td>本物天下霸唱</td>
+            <td>悬疑小说</td>
+            <td><button class="btn btn-primary"><a href="#"
+                  style="text-decoration: none;color: #ffffff;">下载</a></button></td>
+          </tr>
+          <tr>
+            <th scope="row">9</th>
+            <td>完美世界</td>
+            <td>辰东</td>
+            <td>玄幻小说</td>
+            <td><button class="btn btn-warning"><a href="#"
+                  style="text-decoration: none;color: #ffffff;">下载</a></button></td>
+          </tr>
+          <tr>
+            <th scope="row">10</th>
+            <td>一念永恒</td>
+            <td>耳根</td>
+            <td>玄幻小说</td>
+            <td><button class="btn btn-success"><a href="#"
+                  style="text-decoration: none;color: #ffffff;">下载</a></button></td>
+          </tr>
+          <tr>
+            <th scope="row">11</th>
+            <td>西游记</td>
+            <td>吴承恩</td>
+            <td>经典小说</td>
+            <td><button class="btn btn-primary"><a href="#"
+                  style="text-decoration: none;color: #ffffff;">下载</a></button></td>
+          </tr>
+          <tr>
+            <th scope="row">12</th>
+            <td>红楼梦</td>
+            <td>曹雪芹</td>
+            <td>经典小说</td>
+            <td><button class="btn btn-warning"><a href="#"
+                  style="text-decoration: none;color: #ffffff;">下载</a></button></td>
+          </tr>
+          <tr>
+            <th scope="row">13</th>
+            <td>水浒传</td>
+            <td>施耐庵</td>
+            <td>经典小说</td>
+            <td><button class="btn btn-info"><a href="#" style="text-decoration: none;color: #ffffff;">下载</a></button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">14</th>
+            <td>聊斋志异</td>
+            <td>蒲松龄</td>
+            <td>悬疑小说</td>
+            <td><button class="btn btn-primary"><a href="#"
+                  style="text-decoration: none;color: #ffffff;">下载</a></button></td>
+          </tr>
+          <tr>
+            <th scope="row">15</th>
+            <td>百年孤独</td>
+            <td>马尔克斯</td>
+            <td>经典小说</td>
+            <td><button class="btn btn-warning"><a href="#"
+                  style="text-decoration: none;color: #ffffff;">下载</a></button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+
+</html>

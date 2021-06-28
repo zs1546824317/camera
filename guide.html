@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+        <link rel="icon" href="./img/camera.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="./img/camera.ico" type="image/x-icon"/>
+		<title>介绍页</title>
+		<link rel="stylesheet" href="./css/bootstrap.min.css" />
+		<script src="./js/jquery-3.5.1.min.js"></script>
+		<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="./css/index.css" />
+	</head>
+	<body>
+		<div style="width: 100%;height: 80px;border-bottom: solid 1px #959595;box-shadow: 0px 3px 5px #888888;" id="navtop">
+			<div id="navleft" class="col-md-4 column" >
+				<div style="transform: translateY(50%);">
+					<button style="margin-right: 5px;border-radius: 30px;width: 70px;height: 40px;font-weight:bold;background-color: #000000;color: #ffffff;border: solid #959595 1px;">
+                        <a href="./index.html" style="color: #ffffff;text-decoration:none;">返回</a>
+                    </button>
+				</div>
+				
+			</div>
+			<div id="navcenter" class="col-md-4 column">
+				<div style="text-align: center;">
+					<img src="./img/camera.png" style="margin-left: 0px;">				
+				</div>
+			</div>
+		</div>
+
+        <nav class="navbar navbar-inverse" role="navigation" id="navigation">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbar" >
+                    <ul class="nav navbar-nav navbar-right navbar-custom" style="margin-top: -20px;">
+                        <li><a href="#about">概述</a></li>
+                        <li><a href="#works">品牌一览</a></li>
+                        <li><a href="#history">摄影发展史</a></li>
+                        <li><a href="#more">更多...</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        
+        <section class="about-me" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title col-md-12 text-center">
+                        <h2>概述</h2>
+                        <hr>
+                    </div>
+                    <div class="col-md-12 text-center">
+                        <img class="img-circle img-w" src="./img/camera1.png" alt="">
+                    </div>
+                    <div class="col-md-8 col-md-offset-2">
+                       <div class="about-text">
+                           <p class="text-indent">&nbsp;&nbsp;摄影一词是源于希腊语φῶς 英：phos（光线）和 γραφι 英：graphis（绘画、绘图）或γραφή graphê，两字一起的意思是”以光线绘图”。摄影是指使用某种专门设备进行影像记录的过程，一般我们使用机械照相机或者数码照相机进行摄影。有时摄影也会被称为照相，也就是通过物体所发射或反射的光线使感光介质曝光的过程。有人说过的一句精辟的语言：摄影家的能力是把日常生活中稍纵即逝的平凡事物转化为不朽的视觉图像。</p>
+                           <p class="text-indent">&nbsp;&nbsp;数码相机，英文全称：Digital Still Camera (DSC)，简称：Digital Camera (DC)，是数码照相机的简称，又名：数字式相机。数码相机，是一种利用电子传感器把光学影像转换成电子数据的照相机。
+                            按用途分为：单反相机，微单相机，卡片相机，长焦相机和家用相机等。数码相机与普通照相机在胶卷上靠溴化银的化学变化来记录图像的原理不同，数字相机的传感器是一种光感应式的电荷耦合器件（CCD）或互补金属氧化物半导体（CMOS）。在图像传输到计算机以前，通常会先储存在数码存储设备中（通常是使用闪存；软磁盘与可重复擦写光盘（CD-RW）已很少用于数字相机设备）。</p>
+                            <h3 style="text-align: center;">本项目以介绍部分相机、品牌为主</h3>
+                            <br /><br /><br /><br /><br /><br />
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <section class="works" id="works">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center section-title">
+                        <h2>品牌一览</h2>
+                        <hr>
+                        <p>以下为本项目包含品牌</p>
+                    </div>
+        
+                    <div id="works-display">
+                        <div class="container">
+                            <div class="portFilter text-center">
+                                <a class="current" href="#" data-filter>返回顶部</a>
+                            </div>
+                            <div class="row">
+                                <div id="work-item" class="work-item isotope" style="position: relative; overflow:hidden; height: 580px;">
+                                    <figure class="isotope-items item col-md-3 col-lg-3 col-sm-6 design" style="width: 290px;">
+                                        <img src="./img/sony.jpg" alt="item1">
+                                    </figure>
+                                    
+                                    <figure class="isotope-items item col-md-3 col-lg-3 col-sm-6 design" style="width: 290px;">
+                                        <img src="./img/canon.jpg" alt="item1">
+                                    </figure>
+                                    
+                                    <figure class="isotope-items item col-md-3 col-lg-3 col-sm-6 design" style="width: 290px;">
+                                        <img src="./img/nikon.jpg" alt="item1">
+                                    </figure>
+                                    
+                                    <figure class="isotope-items item col-md-3 col-lg-3 col-sm-6 design" style="width: 290px;">
+                                        <img src="./img/fujifilm.jpg" alt="item1">
+                                    </figure>
+                                    <figure class="isotope-items item col-md-3 col-lg-3 col-sm-6 design" style="width: 290px;">
+                                        <img src="./img/leica.jpg" alt="item1">
+                                        <figcaption>
+                                    </figure>
+                                    <figure class="isotope-items item col-md-3 col-lg-3 col-sm-6 design" style="width: 290px;">
+                                        <img src="./img/hasselblad.jpg" alt="item1">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="history" id="history">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center section-title">
+                        <h2>摄影发展史</h2>
+                        <hr>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <p>&nbsp;&nbsp;1839年法国画家达盖尔公布了他发明的“达盖尔银版摄影术”，于是世界上诞生了第一台可携式木箱照相机。 这一时期的相机在设计上来说，形态笨重，色彩单一，结构比较复杂，材质是用木头制作而成。</p>
+                            <ul>
+                                <li>第一阶段（1893年—1924年）</li>
+                                    <p>&nbsp;&nbsp;照相机的机身由木箱改变为金属机身，镜头由单片新月形透镜发展为校正像差的多组多片正光镜头，镜头上设置了光圈和快门，以控制曝光量。</p>
+                                    <p>&nbsp;&nbsp;1888年美国柯达公司发明了安装胶卷的方箱照相机，对摄影的普及起了重要作用。</p>
+                                    <p>&nbsp;&nbsp;1913年德国蔡司显微镜厂研制成使用35mm电影胶卷的135照相机。</p>
+                                <li>第二阶段（1925年—1953年）</li>
+                                    <p>&nbsp;&nbsp;1925年德国莱茨公司改进了巴纳克照相机，生产出采用埃尔玛镜头的平视取景的135照相机，命名为徕卡I型。徕卡135照相机便于携带和抓拍，对新闻摄影的发展和摄影的普及起了推动作用。</p>
+                                    <p>&nbsp;&nbsp;1929年德国罗莱公司生产出第一台双镜头反光120照相机，命名为罗莱弗莱克斯。</p>
+                                    <p>&nbsp;&nbsp;1932年德国蔡司公司和伊康公司生产出装有硒光电池测光表的照相机—康太克斯I型135旁轴取景照相机。</p>
+                                    <p>&nbsp;&nbsp;1948年德国生产出第一台五棱镜单镜头反光135照相机—康太克斯S型照相机。同年，瑞典生产出可更换镜头和片盒的120</p>
+                                    <p>&nbsp;&nbsp;在此阶段，镜头单层镀膜技术得到推广；变焦距镜头诞生；照相机性能进一步完善；德国照相机的质量和产量在当时均有明显的优势，徕卡照相机和罗莱弗莱克斯照相机成为各国仿效的对象。</p>
+                                <li>第三阶段（1954年—1984年）</li>
+                                <p>&nbsp;&nbsp;1954年德国阿克发公司生产出第一台有镜头外测光功能的阿克发EE（电眼）型135平视取景照相机。从此，电子技术应用于照相机领域。</p>
+                                <p>&nbsp;&nbsp;1959年阿克发公司生产出具有自动曝光功能的照相机—奥普蒂马照相机。</p>
+                                <p>&nbsp;&nbsp;1977年日本小西六公司生产出第一台自动调焦照相机—柯尼卡C35AF型平视取景照相机。</p>
+                                <p>&nbsp;&nbsp;1981年日本索尼公司生产出用磁盘记录影像的静态视频照相机—马维卡照相机，把光信号转变成模拟的电信号记录在软磁盘上，为数字影像系统的实现奠定了基础。</p>
+                                <p>&nbsp;&nbsp;1982年尼康公司推出的FM2全手控机械照相机，最高快门速度达1／4000秒，闪光同步快门速度达1／200秒。该机型以其优良的性能成为众多专业摄影者的首选机型。</p>
+                                <p>&nbsp;&nbsp;1983年尼康公司生产具有分区评估测光功能的135单镜头反光照相机—尼康FA型照相机，使测光精确度大大提高。</p>
+                                <p>&nbsp;&nbsp;这一阶段，电子技术广泛应用于照相机领域，使自动测光、自动调焦、自动曝光成为现实。光学传递函数理论的推广，新型光学材料的开发和光学加工技术的提高，使镜头质量得以改善。非球面透镜崭露头角，镜头向系列化发展。日本照相机后来居上，在自动化程度和产量上开始占有优势。</p>
+                                <li>第四阶段（1985年以后迄今）</li>
+                                <p>&nbsp;&nbsp;1985年2月和9月日本美能达公司生产由微型计算机控制的135单镜头反光AF照相机—美能达 X7000型、 X9000型照相机的问世，标志着照相机制作进入以电子技术为主导、并逐步智能化的阶段。</p>
+                                <p>&nbsp;&nbsp;1986年4月日本尼康公司生产同时具有单次AF模式和连续AF模式的尼康F501型135单镜头反光照相机，可与非AF镜头的通用，使用户在照相机的更新换代中减少损失。</p>
+                                <p>&nbsp;&nbsp;1988年5月美能达公司推出智能化的Dynax7000I型135单镜头反光AF照相机。该照相机能根据动体速度提前调焦至拍摄位置。</p>
+                                <p>&nbsp;&nbsp;1988年12月，尼康公司推出尼康F4型135单镜头反光照相机。尼康F4型几乎将当时135单镜头反光照相机所有的功能集于一身，它具有AF焦点预测、l／8000秒高速快门、自动包围曝光、高光／阴影控制、陷阱调焦等功能。因此被美国航天总署装备在“发现号”航天飞机上。</p>
+                                <p>&nbsp;&nbsp;1995年柯达公司推出623万像素（2036×3060）的柯达DCS 460型数字照相机，将CCD的影像信号变为数字信号记录在磁盘上，该照相机使用尼康F90照相机的机身和镜头。数字照相机的诞生，标志着计算机技术全面进人照相机领域。</p>
+                                <p>&nbsp;&nbsp;1996年尼康公司推出了采用1005像素CCD作测光元件，可评估景物各部分亮度，在追踪AF条件下每秒钟连柏8幅的尼康F5型照相机。</p>
+                                <p>&nbsp;&nbsp;1996年5月由美国柯达、日本尼康、佳能、美能达、富士五大公司联合推出APS（先进摄影系统）胶卷、照相机、冲扩机系列产品。APS胶卷片宽24mm，体积小，安装快捷，不伤胶片，胶片上的磁性涂层可记录拍摄和冲扩的有关信息。</p>
+                                <p>&nbsp;&nbsp;这一阶段，由于不断采用最新的电子科技成果，照相机智能化程度越来越高，操作越来越方便。数字影像技术得以迅速发展，虽然数字影像在分辨率、宽容度、感光度等方面还不如银盐影像，但由于其传输快捷、处理方便，已经在新闻业、广告业以及军事和科研方面得到广泛应用。</p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        </section>
+</html>
